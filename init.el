@@ -27,7 +27,7 @@
 (electric-pair-mode 1)
 
 ;; add custom load path for themes
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(add-to-list 'custom-theme-load-path "~/.config/emacs/themes")
 
 ;; load custom theme
 (load-theme 'dracula t)
